@@ -12,6 +12,9 @@ This section has 20 videos so according to my plan it will take me 3 days  2 and
 ### Update: 
  - I officially started and completed 4% of the course as planned and viewed 8 videos so far it was a good experience. learned a lot about typescript. Looking forward to learning more
 
+ ### Update 2:
+ - I have learned a lot today the highlight of today's learning was learning about MongoDB Compass and PostMan I also have learned some new techniques for the backend. completed 8% of the course excited to learn more in the future
+
 ## Section 02: This Section is for error handelling
 
 This section is small it has 4 videos and around 30 min watch time I will complet it with the section 1 I mean in the mentiond 3 days but if only if i stumbled in any issue thats why I am consedering to give it one day.
