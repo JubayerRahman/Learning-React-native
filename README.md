@@ -1,4 +1,4 @@
-## Hi this is my course planning
+## Hi this is my course planning, Updates and tracking
 
 
 This repo is to keep track of my react native course progress. this repo has overall 19 sections with almost 220 videos. So my plan is simple: I plan to see at least 8 videos daily and practice them. 
@@ -14,6 +14,10 @@ This section has 20 videos so according to my plan it will take me 3 days  2 and
 
  ### Update 2:
  - I have learned a lot today the highlight of today's learning was learning about MongoDB Compass and PostMan I also have learned some new techniques for the backend. completed 8% of the course excited to learn more in the future
+
+ ## Section 18: The system setup (Windows)
+
+I was facing some trouble to use the system so today I completed this section and added the sytems and software for the course.
 
 ## Section 02: This Section is for error handelling
 
