@@ -1,21 +1,60 @@
-import { model, Schema } from "mongoose";
+import { Document, Schema, model } from "mongoose";
+import { hash, compare, genSalt } from "bcrypt";
 
-const userScema = new Schema({
-    email:{
-        type: String,
-        // unique: true,
-        require: true,
+interface UserDocument extends Document {
+  name: string;
+  email: string;
+  password: string;
+  verified: boolean;
+  tokens: string[];
+  avatar?: { url: string; id: string };
+}
+
+interface Methods {
+  comparePassword(password: string): Promise<boolean>;
+}
+
+const userSchema = new Schema<UserDocument, {}, Methods>(
+  {
+    email: {
+      type: String,
+      unique: true,
+      required: true,
     },
-    password:{
-        type: String,
-        require: true,
+    password: {
+      type: String,
+      required: true,
     },
-    name:{
-        type: String,
-        require: true
-    }
-},{timestamps: true})
+    name: {
+      type: String,
+      required: true,
+    },
+    verified: {
+      type: Boolean,
+      default: false,
+    },
+    tokens: [String],
+    avatar: {
+      type: Object,
+      url: String,
+      id: String,
+    },
+  },
+  { timestamps: true }
+);
 
-const UserModel = model("user", userScema)
+userSchema.pre("save", async function (next) {
+  if (this.isModified("password")) {
+    const salt = await genSalt(10);
+    this.password = await hash(this.password, salt);
+  }
 
-export default UserModel
+  next();
+});
+
+userSchema.methods.comparePassword = async function (password) {
+  return await compare(password, this.password);
+};
+
+const UserModel = model("User", userSchema);
+export default UserModel;

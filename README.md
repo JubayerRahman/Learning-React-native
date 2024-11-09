@@ -19,6 +19,12 @@ This section has 20 videos so according to my plan it will take me 3 days  2 and
 
 I was facing some trouble to use the system so today I completed this section and added the sytems and software for the course.
 
+### Update 4:
+ Learned a lot the most importent one was hashing the password I am new to typescript so the advanced codes can be confusing sometime
+
 ## Section 02: This Section is for error handelling
 
 This section is small it has 4 videos and around 30 min watch time I will complet it with the section 1 I mean in the mentiond 3 days but if only if i stumbled in any issue thats why I am consedering to give it one day.
+
+### update 4.2:
+ completed 50% on this section will complet the rest yesterday.

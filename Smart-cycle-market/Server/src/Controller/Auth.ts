@@ -1,5 +1,7 @@
 import { RequestHandler } from "express"
 import UserModel from "src/models/user";
+import crypto from "crypto"
+import AuthvarificationTokenModel from "src/models/AuthvarificationToken";
 
 export const createuser: RequestHandler  = async (req,res)=>{
 
@@ -18,7 +20,14 @@ export const createuser: RequestHandler  = async (req,res)=>{
         res.send("email already used")
      }
 
-     await UserModel.create({name, email, password})
+     const user = await UserModel.create({name, email, password})
 
-    res.send("Ok")
+    //  making token
+    const token = crypto.randomBytes(35).toString("hex")
+    await AuthvarificationTokenModel.create({owner: user._id, token})
+
+    // sending verification link
+    const link =`http://localhost:3000/verify?id=${user._id}&token=${token}`
+
+    res.send(link)
 }
