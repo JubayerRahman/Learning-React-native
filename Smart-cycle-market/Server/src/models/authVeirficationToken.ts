@@ -1,4 +1,3 @@
-
 import { compare, genSalt, hash } from "bcrypt";
 import { Schema, model } from "mongoose";
 

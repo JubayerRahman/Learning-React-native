@@ -2,6 +2,7 @@ import { RequestHandler } from "express";
 import { sendErrorRes } from "src/utils/helper";
 import * as yup from "yup";
 
+// validate(newUserSchema)
 const validate = (schema: yup.Schema): RequestHandler => {
   return async (req, res, next) => {
     try {

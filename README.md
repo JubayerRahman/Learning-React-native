@@ -46,3 +46,11 @@ This section is small it has 4 videos and around 30 min watch time I will comple
 
  ### Update 8:
  I thought the tutor would use Multer but used formidable my question is if we are going to upload the file into a third-party server why are doing all the file management things I have dated the same uploaded images into third-party cloud services without the backend I do not see any use of file management if we are not managing our files in the first place.
+
+ ## Section 5: Product API
+
+### update 9:
+I am working on product API this is the finla section for the backend. I am reliefed and looking forward to complete it and start learning the frontend part. this section containts 14 videos and today I have complted 5 of them.
+
+### update 10:
+Today completed the rest 10 vides and by that I have completed the backend part of the course. Alomst more them 30% excited to learn react native part. Lets see what is in the ferther part of the course. 
