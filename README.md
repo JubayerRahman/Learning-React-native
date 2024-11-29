@@ -54,3 +54,14 @@ I am working on product API this is the finla section for the backend. I am reli
 
 ### update 10:
 Today completed the rest 10 vides and by that I have completed the backend part of the course. Alomst more them 30% excited to learn react native part. Lets see what is in the ferther part of the course. 
+
+## Section 6: Auth with react native
+
+## update 11:
+Fually I am starting to make my native app. today I have completed 10 videos of this section learned a lot most of these stufs I know I have uses expo riuting system which is similer to Next js, but react native routing sytem is not bed.
+
+## update 12:
+Today I have completed 14 videos of this section. most of them was design related. these videos was interesting to watch but with tyoescript I dont know It feels overly complicated.
+
+## update 13:
+Compled the rest of the videos of the section here the tutor was taking about the redux toolkit I didnt understand his explanation so I am looking at other source to understand it.
