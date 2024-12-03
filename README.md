@@ -65,3 +65,6 @@ Today I have completed 14 videos of this section. most of them was design relate
 
 ### update 13:
 Compled the rest of the videos of the section here the tutor was taking about the redux toolkit I didnt understand his explanation so I am looking at other source to understand it.
+
+### Update 14: 
+Today I cannot see the classes due to my office accounts logout looking for HRM to solve it. so for today, I planned to make a small app on my own based on what I have learned so far. The beginning was good Let's see what lies ahead. I need an Idea of an app to test my skills and make a good project.
